@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.yellowbox{
+    border: solid;
+    background-color: yellow;
+    justify-content: space-between;
+    height: 80px;
+    width: 150px;
+}
+.box{
+    width: 150px;
+    background-color: yellow;
+}
+.box:nth-child(2){
+    height: 580px;
+    width: 150;
+    background-color: grey;
+}
+.orangebox{
+    border: solid;
+    background-color: darkorange;
+    justify-content: space-around;
+    height: 80px;
+    width: 1335px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    height: 580px;
+    width: 150px;
+    border: solid;
+}
+.item-1{
+    background-color: lightgreen;
+}
+.item-2{
+    background-color: bisque;
+    width: 77%;
+}
+.item-3{
+    background-color: aqua;
+}
+.bottombox{
+    border: solid;
+    background-color: blue;
+    justify-content: space-around;
+    height: 80px;
+    width: 99%;
+}
