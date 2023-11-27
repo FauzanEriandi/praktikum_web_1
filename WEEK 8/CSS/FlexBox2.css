@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    margin-bottom: 0;
+}
+.header{
+    background-color: yellow;
+    height: 9.54rem;
+    width: 100%;
+}
+.article{
+    background-color: whitesmoke;
+    height: 30rem;
+    width: 59rem;
+}
+.aside{
+    background-color: lightpink;
+    height: 30rem;
+    width: 19rem;
+}
+.nav{
+    background-color: aquamarine;
+    height: 30rem;
+    width: 19rem;
+}
+.footer{
+    background-color: yellow;
+    height: 9.54rem;
+    width: 100%;
+}
