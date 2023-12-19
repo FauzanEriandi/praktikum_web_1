@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        text-align: center;
+    }
+    .btn1{
+background-color: aqua;
+    }
+    .btn2{
+background-color: crimson;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>Kamu mau gak jadi pacar aku?</h2>
+        <h3 id="jawab">Jawabannya adalah?</h3>
+        <button type="button" class="btn1" onclick='document.getElementById("jawab").innerHTML = "iya aku mau jadi pacar kamu"'>Terima</button>
+        <button type="button" class="btn2" onclick='document.getElementById("jawab").innerHTML = "halah, bilang aja gua jelek"'>Tolak</button>
+    </div>
+</body>
+</html>
